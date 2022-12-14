@@ -1,0 +1,102 @@
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #f3f3f3;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+thead>tr>th>p {
+    margin: 0.5em;
+    color: #fffdff;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+thead>tr>th:first-child {
+    width: 22.5%;
+    border-top-left-radius: 15px;
+    background-color: #7987ac;
+}
+
+thead>tr>th:nth-child(2) {
+    background-color: #4f628d;
+}
+
+thead>tr>th:nth-child(3) {
+    background-color: #2f4173;
+}
+
+thead>tr>th:nth-child(4) {
+    background-color: #162954;
+}
+
+thead>tr>th:last-child {
+    border-top-right-radius: 15px;
+    background-color: #07153a;
+
+}
+
+thead>tr>th:nth-child(2)>p:nth-child(2),
+thead>tr>th:nth-child(3)>p:nth-child(2),
+thead>tr>th:nth-child(4)>p:nth-child(2),
+thead>tr>th:last-child>p:nth-child(2) {
+    margin-top: 1em;
+    margin-bottom: 0;
+
+    font-size: 40px;
+}
+
+tbody>tr>td:first-child {
+    text-align: initial;
+    padding: 1em 0 1em 1.5em;
+    color: #1e1727;
+}
+
+tbody>tr:nth-child(odd)>td:nth-child(odd),
+tfoot>tr:nth-child(odd) {
+    background-color: #dbdbdb;
+}
+
+tbody>tr:nth-child(odd)>td:nth-child(even),
+tbody>tr:nth-child(even)>td:nth-child(odd),
+tfoot>tr>th:nth-child(even) {
+    background-color: #ececec;
+}
+
+tfoot>tr>th {
+    padding: 1.5em;
+}
+
+tfoot>tr>th:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+tfoot>tr>th:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+a {
+    padding: 0.6em 1.6em;
+    border: 1px solid #a8a8a8;
+
+    color: #5a544f;
+    background-color: #d3d3d3;
+
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a,
+tbody>tr:nth-child(1)>td:nth-child(2),
+tbody>tr:nth-child(1)>td:nth-child(3),
+tbody>tr:nth-child(1)>td:nth-child(4),
+tbody>tr:nth-child(2)>td:nth-child(2),
+tbody>tr:nth-child(2)>td:nth-child(3),
+tbody>tr:nth-child(2)>td:nth-child(4),
+tbody>tr:nth-child(2)>td:nth-child(5) {
+    text-transform: uppercase;
+}
